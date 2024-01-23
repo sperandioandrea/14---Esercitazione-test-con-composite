@@ -12,7 +12,5 @@ namespace _14___Esercitazione_test_con_composite
         public abstract void Aggiunta(IComposite componente);
         public abstract void Cancellazione(IComposite componente);
         public abstract IComposite GetChild(int index);
-        public abstract string ToString();
-        public abstract bool Equals();
     }
 }

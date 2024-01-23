@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _14___Esercitazione_test_con_composite
 {
-    public abstract class Test : IComposite
+    public class Test : IComposite
     {
         private List<IComposite> componenti = new List<IComposite>();
 
@@ -61,7 +61,6 @@ namespace _14___Esercitazione_test_con_composite
             {
                 return true;
             }
-
             return false;
         }
     }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _14___Esercitazione_test_con_composite
 {
-    internal class Domanda
+    public class Domanda
     {
+
     }
 }
